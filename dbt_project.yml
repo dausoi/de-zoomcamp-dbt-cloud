@@ -34,3 +34,9 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   de_zoomcamp_dbt:
     # Applies to all files under models/example/
+
+seeds:
+  de_zoomcamp_dbt:
+    taxi_zone_lookup:
+      +column_types:
+        LocationID: numeric
