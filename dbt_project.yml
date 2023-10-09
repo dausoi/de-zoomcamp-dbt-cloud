@@ -40,3 +40,7 @@ seeds:
     taxi_zone_lookup:
       +column_types:
         LocationID: numeric
+
+vars:
+  de_zoomcamp_dbt:
+    payment_type_values: [1, 2, 3, 4, 5, 6]
